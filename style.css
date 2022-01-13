@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: -webkit-pictograph;
+    background-color: #EEF5FF;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.navbar-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 60px;
+  
+}
+.navbar-links a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar span a{
+    color: #1479FF;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: -8px;
+}
+.navbar-button a{
+    background-color: #1479FF;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.container-title h1{
+    font-size: 34px;
+    letter-spacing: 2px;
+    line-height: 45px;
+}
+.text-color{
+    color: #1479FF ;
+}
+.container-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20%;
+}
+.container-button a{
+    background-color: #1479FF;
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+.container-video a{
+    color: #1479FF;
+    text-decoration: none;
+}
+.video-icon{
+    margin-top: -5%;
+}
+.video-link{
+    display: contents;
+
+}
+.container-image img{
+    width: 80%; 
+    float: right;
+}
+.all{
+    background-color: white;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+}
+.statistique{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center;
+}
+.statistique span{
+    color: #1479FF;
+    font-weight: bold;
+    font-size: 40px;
+}
+.header-text{
+    margin: 4rem;
+}
+.header-statistique{
+    margin-top: 5rem;
+}
+.header img{
+    float: right;
+    height: 85%;
+}
+.services{
+    background-color: white;
+}
+.services-text{
+    text-align: center;
+}
+.box-line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.box{
+    padding: 20px;
+    /* border: 1px solid; */
+    border-radius: 24px;
+    box-shadow: -2px 4px 11px 1px #7f7f7f;
+}
+.box img{
+    margin-left: 5rem;
+}
+.box-child{
+ padding: 30px 20px 40px 20px;
+ background-color: #EEF5FF;
+ border-radius: 24px;
+}
+.box-child img{
+    margin-left: 5rem;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #EEF5FF;
+}
+.contact img{
+    float: left;
+    width: 90%;
+}
+input{
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: #b1b1b1;
+}
+.input-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+textarea{
+    padding: 20px;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: #9e9e9e;
+}
+.contact-button{
+    background-color: #1479FF;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #EEF5FF;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.footer-links{
+    display: flex;
+    gap: 50px;
+}
+.footer-p{
+    text-align: center;
+}
+.social-network span{
+    color: #1479FF;
+    font-weight: bold;
+    
+}
+
+.social-network-a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media (max-width: 800px){
+.container-image img,.navbar-links,.navbar-button{
+    display: none;
+}    
+
+.header img{
+    display: none;
+
+}
+.contact{
+    text-align: center;
+}
+.contact img{
+    display: none;
+}
+.social-network{
+    text-align: center;
+}
+.services br,.container br{
+    display: none;
+}
+.box-line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.box img,.box-child img{
+    margin-left: 4rem;
+}
+
+
+}
